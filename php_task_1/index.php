@@ -21,7 +21,7 @@ $library->addBook($book2);
 
 $library->listBooks();
 
-$reader1 = new Reader("Jan", "Janowski");
+$reader1 = new Reader("Włodzimierz", "Janowski");
 $reader2 = new Reader("Jurek", "Owsiak");
 
 $book1->read($reader1);
